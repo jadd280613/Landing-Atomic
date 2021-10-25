@@ -8,13 +8,13 @@ export const Table = () => {
         <div className="col-12">
           <div className="row">
             <div className="col-6 border-right">
-              <p className="title-header">CARACTERISTICAS</p>
+              <h2 className="title-header"> <b>CARACTERISTICAS</b> </h2>
             </div>
             <div className="col-3 border-right text-center">
-              <p className="title-header">OTROS</p>
+              <h2 className="title-header"> <b>OTROS</b> </h2>
             </div>
             <div className="col-3 text-center">
-              <p className="title-header">ATOMIC</p>
+              <h2 className="title-header"> <b style={{ fontSize: '1.5em' }} >ATOMIC</b> </h2>
             </div>
           </div>
           <div className="row">
@@ -27,16 +27,16 @@ export const Table = () => {
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
             <div className="col-3 border-bottom text-center d-flex align-items-center justify-content-center">
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
           </div>
@@ -50,16 +50,16 @@ export const Table = () => {
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
             <div className="col-3 border-bottom text-center d-flex align-items-center justify-content-center">
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
           </div>
@@ -73,16 +73,16 @@ export const Table = () => {
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
             <div className="col-3 border-bottom text-center d-flex align-items-center justify-content-center">
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
           </div>
@@ -98,8 +98,8 @@ export const Table = () => {
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
           </div>
@@ -115,8 +115,8 @@ export const Table = () => {
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
           </div>
@@ -132,8 +132,8 @@ export const Table = () => {
               <img
                 src={IconCheck}
                 className="img-fluid"
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 />
             </div>
           </div>

@@ -1,19 +1,19 @@
 import React from "react";
-import { Header } from "../layout/Header";
+import { useHistory } from 'react-router-dom';
 import Group4032 from "../assets/Group 4032.png";
 import IconArrow from "../assets/Group 4013.png";
 
 export const Banner = () => {
+  let history = useHistory();
   return (
     <div className="banner">
-      <Header />
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-6 justify-content-center align-items-center">
             <img
               src={Group4032}
-              width="500"
-              height="500"
+              width="600"
+              height="600"
               className="img-fluid ml-5"
             />
           </div>
@@ -33,7 +33,7 @@ export const Banner = () => {
               <span>LABS</span>
               </div>
             </h1>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-primary" onClick={() => history.push('/form')}>
               ¡Quiero ser parte!
             </button>
           </div>

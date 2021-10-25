@@ -3,7 +3,7 @@ import logo from '../assets/logo.webp';
 
 export const Header = () => {
   return (
-    <div className="container pt-2 pb-4">
+    <div className="container pt-2 pb-4" style={{ zIndex: '99' }}>
       <div className="row">
         <div className="col-12">
           <img

@@ -35,7 +35,6 @@ export const Section5 = () => {
                             className="img-fluid"
                             width="20"
                             height="20"
-                            alt="..."
                           />
                         </div>
                         <div className="col-10 text-left">
@@ -51,7 +50,6 @@ export const Section5 = () => {
                             className="img-fluid"
                             width="20"
                             height="20"
-                            alt="..."
                           />
                         </div>
                         <div className="col-10 text-left">
@@ -76,7 +74,6 @@ export const Section5 = () => {
                             className="img-fluid"
                             width="20"
                             height="20"
-                            alt="..."
                           />
                         </div>
                         <div className="col-10 text-left">
@@ -92,7 +89,6 @@ export const Section5 = () => {
                             className="img-fluid"
                             width="20"
                             height="20"
-                            alt="..."
                           />
                         </div>
                         <div className="col-10 text-left">
@@ -117,7 +113,6 @@ export const Section5 = () => {
                             className="img-fluid"
                             width="20"
                             height="20"
-                            alt="..."
                           />
                         </div>
                         <div className="col-10 text-left">
@@ -133,7 +128,6 @@ export const Section5 = () => {
                             className="img-fluid"
                             width="20"
                             height="20"
-                            alt="..."
                           />
                         </div>
                         <div className="col-10 text-left">

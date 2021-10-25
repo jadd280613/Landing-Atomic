@@ -21,15 +21,25 @@ p {
   color: white;
 }
 
+hr {
+  width: 80%;
+  margin: 30px auto;
+  padding: 2px;
+  border-radius: 10px;
+  color: $orange;
+  opacity: 1;
+}
+
 .banner {
   background-image: url("../../assets/Mask Group 1@2x.png");
-  // background-image: url("https://blog.prezi.com/wp-content/uploads/2019/03/jason-leung-479251-unsplash.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 120%;
   background-position: center;
-  padding: 0;
+  padding: 140px 0px;
   margin: 0;
   height: 100vh;
+  margin-top: -150px;
+  z-index: 98;
 }
 
 .container-fluid {
@@ -66,6 +76,17 @@ p {
   }
 }
 
+.btn-form{
+  font-size: 2em;
+  font-weight: lighter;
+  color: white;
+  background-color: $orange;
+  &:hover{
+    background-color: $orange;
+    color: white;
+  }
+}
+
 .card-title {
   color: $orange;
   font-size: 1.8em;
@@ -74,6 +95,8 @@ p {
   color: black;
   font-weight: lighter;
   text-align: left;
+  font-size: 1.5em;
+  // margin-top: 50px;
 }
 
 .card-body{
@@ -112,6 +135,9 @@ p {
   border-top-left-radius: 100px;
   background-color: $blue-secondary;
   padding-bottom: 5%;
+  // background:url('../../assets/bg.webp') rgba(19, 155, 240, 0.924);
+  // background-size:cover;
+  // background-blend-mode: overlay;
 }
 
 .text-left{
@@ -135,7 +161,7 @@ p {
 }
 .description{
   color: black;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: normal;
   margin: 10px;
 }
@@ -163,3 +189,16 @@ p {
 .text-footer{
   font-size: 15px;
 }
+
+label {
+  color: white;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+// .bg-solicitud{
+//   background-image: url("../../assets/Mask Group 1@2x.png");
+//   background-repeat: no-repeat;
+//   background-size: 120%;
+//   background-position: center;
+// }
