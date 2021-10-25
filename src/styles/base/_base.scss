@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  background-color: $blue;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: white;
+}
+
+.banner {
+  background-image: url("../../assets/Mask Group 1.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.text-justify {
+  text-align: center;
+}
+
+.text-banner {
+  font-size: 4em;
+}
+
+.text-color-orange {
+  color: $orange;
+}
+.background-color-orange {
+  background-color: $orange;
+}
+
+.btn {
+  border: 0;
+  border-radius: 50px;
+  background-color: white;
+  color: $blueButtonText;
+  padding: 5px 50px;
+  font-weight: bold;
+}
+
+.card-title {
+  color: $orange;
+  font-size: 1.8em;
+}
+.card-text {
+  color: black;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.card-body{
+    width: 85%;
+}
+
+.card {
+  height: 60vh;
+  width: 100%;
+  padding: 0px;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+.card-center {
+  height: 70vh;
+  width: 100%;
+  z-index: 99;
+}
+
+.card-text-center, .card-title-center{
+    color: white;
+}
+
+.card1 {
+    margin-right: -90px;
+    z-index: 0;
+}
+.card2 {
+    margin-left: -90px;
+    z-index: 0;
+}
+
+.container-radius{
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  background-color: $blue-secondary;
+  padding-bottom: 5%;
+}
+
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+.container-images{
+  margin-top: -140px;
+}
+.card-table{
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 30px 0px 30px;
+}
+.title-header{
+  color: black;
+  font-size: 1.2em;
+}
+.description{
+  color: black;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 10px;
+}
+
+.border-right{
+  border-right: 0.5px solid rgba(0,0,0,0.2);
+}
+.border-bottom{
+  border-bottom: 0.5px solid rgba(0,0,0,0.2);
+}
+
+.col-table{
+  padding: 0px;
+}
+
+.footer{
+  background-color: black;
+  padding: 0px 70px;
+}
+
+.container-footer{
+  padding: 0px 30px;
+}
+
+.text-footer{
+  font-size: 15px;
+}
