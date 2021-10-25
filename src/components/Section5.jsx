@@ -8,11 +8,11 @@ import { Table } from "./Table";
 export const Section5 = () => {
   return (
     <>
-      <div className="container pt-5" style={{ marginBottom: '20%' }}>
+      <div className="container pt-5" style={{ marginBottom: '300px' }}>
         <div className="row">
           <div className="col-12 text-center">
-            <h2>
-              ¿POR QUE <span>ATOMIC?</span>
+            <h2 style={{ fontSize: '3em', fontWeight: 'bold' }}>
+              ¿POR QUE <span className='text-color-orange'>ATOMIC?</span>
             </h2>
           </div>
         </div>

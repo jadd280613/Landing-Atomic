@@ -4,13 +4,13 @@ import ArrowLeft from "../assets/arrow-right.svg";
 
 export const Section4 = () => {
   return (
-    <div className="container">
+    <div className="container" style={{ height: '80vh' }}>
       <div className="row">
         <div className="col-12 text-center">
           <img src={Img} className="img-fluid" alt="..." />
         </div>
       </div>
-      <div className="row">
+      <div className="row justify-content-center">
         <div className="col-2">
           <h5 className="text-center">
             Contratacion <br /> remota
@@ -57,15 +57,6 @@ export const Section4 = () => {
           <h5 className="text-center">
             Entrevista <br /> tecnica
           </h5>
-        </div>
-        <div className="col-1 d-flex text-center align-items-center justify-content-center">
-          <img
-            src={ArrowLeft}
-            width="50"
-            height="50"
-            className="img-fluid"
-            alt="..."
-          />
         </div>
       </div>
       <div className="row pt-5">

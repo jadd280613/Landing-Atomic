@@ -5,7 +5,7 @@ import IconArrow from "../assets/Group 4013.png";
 
 export const Banner = () => {
   return (
-    <div className="container-fluid banner">
+    <div className="banner">
       <Header />
       <div className="container">
         <div className="row justify-content-center">
@@ -20,28 +20,30 @@ export const Banner = () => {
           <div className="col-6 align-self-center text-center">
             <h1 className="text-justify text-banner">
               Desarrolla todo <br />
-              <span className="text-color-orange" style={{ fontSize: "1.1em" }}>
+              <span className="text-color-orange">
                 tu POTENCIAL
               </span>
               <br />
               <span style={{ fontSize: ".85em" }}>dentro del equipo</span>
               <br />
-              <span className="text-color-orange" style={{ fontSize: "1.2em" }}>
+              <div style={{ fontSize: '1.1em' }}>
+              <span className="text-color-orange">
                 ATOMIC
               </span>
-              <span style={{ fontSize: "1.2em" }}>LABS</span>
+              <span>LABS</span>
+              </div>
             </h1>
             <button type="button" class="btn btn-primary">
               ¡Quiero ser parte!
             </button>
           </div>
         </div>
-        <div className="row justify-content-center">
-          <div className="col-12 text-center p-0">
+        <div className="row justify-content-center pt-5">
+          <div className="col-12 text-center">
             <img src={IconArrow} className="img-fluid" />
           </div>
           <div className="col-12 text-center">
-            <h5>Quiero saber mas</h5>
+            <p>Quiero saber mas</p>
           </div>
         </div>
       </div>
