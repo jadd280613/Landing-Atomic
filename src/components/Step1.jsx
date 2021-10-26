@@ -7,7 +7,7 @@ export const Step1 = (props) => {
       <div className='row'>
         <div className='col-12 d-flex align-items-center '>
           <img src={IconNumber1} className='img-fluid' width='80' height='80' />
-          <h2 style={{ fontSize: '3.4em', marginLeft: '40px' }}>
+          <h2 style={{ fontSize: '3.4vw', marginLeft: '40px' }}>
             <b>
               TE QUEREMOS <span>CONOCER</span>
             </b>
@@ -16,7 +16,7 @@ export const Step1 = (props) => {
         <div className='row'>
           <div
             className='col-12'
-            style={{ fontSize: '1.5em', margin: '40px 0px' }}
+            style={{ fontSize: '1.5vw', margin: '40px 0px' }}
           >
             <p>
               Queremos saber que eres tu, por favor ingresa los siguientes

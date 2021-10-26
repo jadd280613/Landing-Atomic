@@ -37,7 +37,7 @@ hr {
   background-position: center;
   padding: 140px 0px;
   margin: 0;
-  height: 100vh;
+  height: 120vh;
   margin-top: -150px;
   z-index: 98;
 }
@@ -52,7 +52,7 @@ hr {
 }
 
 .text-banner {
-  font-size: 5em;
+  font-size: 5vw;
   font-weight: bold;
 }
 
@@ -89,13 +89,13 @@ hr {
 
 .card-title {
   color: $orange;
-  font-size: 1.8em;
+  font-size: 1.8vw;
 }
 .card-text {
   color: black;
   font-weight: lighter;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   // margin-top: 50px;
 }
 

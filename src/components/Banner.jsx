@@ -9,7 +9,7 @@ export const Banner = () => {
     <div className="banner">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-6 justify-content-center align-items-center">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center align-items-center">
             <img
               src={Group4032}
               width="600"
@@ -17,7 +17,7 @@ export const Banner = () => {
               className="img-fluid ml-5"
             />
           </div>
-          <div className="col-6 align-self-center text-center">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 align-self-center text-center">
             <h1 className="text-justify text-banner">
               Desarrolla todo <br />
               <span className="text-color-orange">
