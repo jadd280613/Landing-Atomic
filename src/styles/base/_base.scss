@@ -29,7 +29,9 @@ hr {
   color: $orange;
   opacity: 1;
 }
-
+.pointer{
+  cursor: pointer;
+}
 .banner {
   background-image: url("../../assets/Mask Group 1@2x.png");
   background-repeat: no-repeat;
@@ -196,9 +198,12 @@ label {
   font-weight: lighter;
 }
 
-// .bg-solicitud{
-//   background-image: url("../../assets/Mask Group 1@2x.png");
-//   background-repeat: no-repeat;
-//   background-size: 120%;
-//   background-position: center;
-// }
+.container-solicitud{
+  margin: 0 10% 0 10%;
+}
+
+.container-modal{
+      width: 100VW;
+     height: 100VH;
+     background-color: red;
+}

@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import IconNumber1 from '../assets/Group 4014@2x.png';
 
 export const Step1 = (props) => {
+  console.log(props.fullName.name.length);
   return (
     <div className='container-fluid'>
       <div className='row'>
-        <div className='col-12 d-flex align-items-center '>
-          <img src={IconNumber1} className='img-fluid' width='80' height='80' />
+        <div className='col-12 d-flex align-items-center'>
+          <img src={IconNumber1} className='img-fluid' width='60' height='60' />
           <h2 style={{ fontSize: '3.4vw', marginLeft: '40px' }}>
             <b>
               TE QUEREMOS <span>CONOCER</span>
@@ -27,29 +28,30 @@ export const Step1 = (props) => {
         <div className='row'>
           <div className='col-6'>
             <form>
-              <div class='mb-3'>
-                <label for='inputName' class='form-label'>
-                  Nombre (s)
-                </label>
+              <div className='mb-3'>
+                <label className='form-label'>Nombre (s)</label>
                 <input
                   type='text'
-                  class='form-control'
-                  id='inputName'
-                  aria-describedby='nameHelp'
+                  name='name'
+                  className='form-control'
                   onChange={props.handleChangeName}
                 />
-                <div id='nameHelp' class='form-text' style={{ color: 'red', fontWeight: 'lighter' }}>
-                  El nombre debera de tener minimo 5 caracteres
-                </div>
+                {props.fullName.name.length >= 1 &&
+                props.fullName.name.length < 5 ? (
+                  <div
+                    className='form-text'
+                    style={{ color: 'red', fontWeight: 'lighter' }}
+                  >
+                    El nombre debera de tener minimo 5 caracteres
+                  </div>
+                ) : null}
               </div>
-              <div class='mb-3'>
-                <label for='inputApellidos' class='form-label'>
-                  Apellidos
-                </label>
+              <div className='mb-3'>
+                <label className='form-label'>Apellidos</label>
                 <input
-                  type='password'
-                  class='form-control'
-                  id='inputApellidos'
+                  type='text'
+                  name='lastName'
+                  className='form-control'
                   onChange={props.handleChangeName}
                 />
               </div>
